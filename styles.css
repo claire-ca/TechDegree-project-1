@@ -167,6 +167,44 @@ a.social:hover {
   clear: both;
 }
 
+/* About Page Styles */
+
+.main-nav .about-name {
+  color: #ff99ff;
+}
+.page-name {
+  line-height: 260px;
+  color: #ff99ff;
+}
+.page-name span {
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.treehouse-link {
+  color: #5FCF80;
+  font-weight: 600;
+}
+
+.treehouse-link:hover,
+.treehouse-link:focus {
+  color: #51B970;
+}
+
+main li {
+  line-height: 1.8;
+}
+.experience li:nth-child(2n + 1) {
+  list-style-image: url('images/blue-cross.svg');
+}
+
+.experience li:nth-child(2n + 2) {
+  list-style-image: url('images/orange-cross.svg');
+}
+
+.hobbies li {
+  list-style-image: url('images/bullet.svg');
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
