@@ -121,6 +121,11 @@ ul.skills {
   background: #0399ff;
 }
 
+.desk {
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+}
 footer {
   width: 100%;
   min-height: 30px;
