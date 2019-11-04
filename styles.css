@@ -122,7 +122,7 @@ ul.skills {
 }
 
 .desk {
-  height: 300px;
+  height: 400px;
   width: 600px;
   border-radius: 20px;
 }
@@ -175,15 +175,12 @@ a.social:hover {
 
 /* About Page Styles */
 
-.main-nav .about-name {
-  color: #ff99ff;
-}
 .page-name {
-  line-height: 260px;
+  line-height: 360px;
   color: #ff99ff;
 }
 .page-name span {
-  border: 3px solid white;
+  background: white;
   border-radius: 5px;
   padding: 10px;
 }
@@ -210,6 +207,15 @@ main li {
 
 .hobbies li {
   list-style-image: url('images/bullet.svg');
+}
+
+.email-link {
+  color: #ff99ff;
+}
+
+.email-link:focus,
+.email-link:hover {
+  color: #e600e6;
 }
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
