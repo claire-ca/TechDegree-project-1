@@ -121,6 +121,10 @@ ul.skills {
   background: #0399ff;
 }
 
+.hobbies li {
+  list-style-image: url('images/bullet.svg');
+}
+
 .desk {
   height: 400px;
   width: 600px;
@@ -205,10 +209,7 @@ main li {
   list-style-image: url('images/orange-cross.svg');
 }
 
-.hobbies li {
-  list-style-image: url('images/bullet.svg');
-}
-
+/* Contact Page Styles */
 .email-link {
   color: #ff99ff;
 }
